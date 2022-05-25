@@ -37,7 +37,7 @@ body{
     height: 400px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    opacity: 40%;
+    opacity: 50%;
 }
 
 span{    
@@ -60,7 +60,6 @@ p{
     color: hsla(0, 0%, 100%, 0.6);
     line-height: 1.6em;
 }
-
 
 .stats{
     display: flex;
@@ -99,106 +98,60 @@ a:hover{
     font-weight: bold;
 }
 
-@media(max-width:1000px){
+@media(max-width:992px){
     body{
-        font-size: 12px;
+        font-size: 62.5%;
     }
 
-    .container{        
-        flex-direction: column;
-        padding: 30px 0;    
+    .container{
+        flex-direction: column-reverse;              
     }
 
-    h1{
+    .card-right, img{
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .card-left{
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 10px;                
+    }   
+
+    div h1{
+        font-size: 1.5rem;
         text-align: center;
         margin: 0;
+        padding-top: 50px;        
     }
 
-    p{
+    div p{
+        margin: 20px;
         font-size: 1rem;
         text-align: center;
-        margin: 15px 10px 10px; 
+                
     }
 
-    .stats-numbers {
-        margin-top: 2.5rem;
-        margin-left: 4rem;        
-        font-size: 1.3rem;                   
+    .stats{        
+        display: block;
+        text-align: center;
     }
 
-    .stats-text{
-        margin-left: 4.5rem;       
-        font-size: 0.5rem;
-                    
+    div .stats-numbers{
+        font-size: 1rem;
+        margin: 0;
+        padding: 2px;
     }
 
-    .attribution{
-        margin-top: 1.5rem;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        font-size: 0.7rem;    
-    }
-
-    .card-left{
-        border-radius: 10px 10px 0 0 ;
-    }
-
-    .card-right, .card-right img{
-        border-radius: 0 0 10px 10px;
-    }
-}
-
-@media(max-width:530px){
-    body{
-        font-size: 10px;
-    }
-
-    .container{        
-        flex-direction: column;
-        padding: 30px 0;    
-    }
-
-    h1{
+    div .stats-text{
+        font-size: 0.6rem;
         text-align: center;
         margin: 0;
+        padding: 2px;
     }
 
-    p{
-        font-size: 0.8rem;
-        text-align: center;
-        margin: 15px 10px 10px; 
-    }
-
-    .stats-numbers {
-        margin-top: 1.5rem;
-        margin-left: 2rem;        
-        font-size: 1rem;                   
-    }
-
-    .stats-text{
-        margin-left: 2.5rem;       
-        font-size: 0.5rem;
-                    
-    }
-
-    .attribution{
-        margin-top: 1.5rem;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        font-size: 0.7rem;    
-    }
-
-    .card-left{
-        border-radius: 10px 10px 0 0 ;
-        width: 390px;
-        height: 300px;
-    }
-
-    .card-right, .card-right img{
-        border-radius: 0 0 10px 10px;
-        width: 390px;
-        height: 300px;
+    .attribution{                   
+        bottom: 0;        
+        align-self: center;
+        margin: 0;                
     }
 }
