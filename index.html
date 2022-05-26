@@ -12,48 +12,37 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
   <title>Frontend Mentor | Stats preview card component</title>
 
 
 </head>
 
 <body>
-
-  <main class="container">
-
-    <div class="card-left">
-      <h1>Get <span>insights</span> that help your business grow.</h1>
-      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
-        experience, and overall efficiency.</p>
-
-      <div class="stats">
-        <div class="companies">
-          <p class="stats-numbers">10k+</p>
-          <p class="stats-text">COMPANIES</p>
-        </div>
-        <div class="templates">
-          <p class="stats-numbers">314</p>
-          <p class="stats-text">TEMPLATES</p>
-        </div>
-        <div class="queries">
-          <p class="stats-numbers">12M+</p>
-          <p class="stats-text">QUERIES</p>
-        </div>
+  <main class="card">
+    <div class="text">
+      <h1>
+        Get <span id="insight">insights</span> that help your business grow.
+      </h1>
+      <h2>
+        Discover the benefits of data analytics and make better decisions
+        regarding revenue, customer experience, and overall efficiency.
+      </h2>
+      <div class="elements">
+        <div class="data">10k+ <br /><span class="desc">companies</span></div>
+        <div class="data">314 <br /><span class="desc">templates</span></div>
+        <div class="data">12M+ <br /><span class="desc">queries</span></div>
       </div>
     </div>
-
-    <div class="card-right">
-      <img class="image" src="./src/images/image-header-desktop.jpg" alt="">
+    <div class="images">
+      <img src="src/images/image-header-desktop.jpg" alt="office" />
     </div>
-
-    </div>
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/juniorm4ciel" target="_blank">Junior Maciel</a>.
-    </div>
-
   </main>
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+    <a href="https://www.linkedin.com/in/devjuniormaciel/" target="_blank">Junior Maciel</a>.
+  </footer>
 </body>
 
 </html>
