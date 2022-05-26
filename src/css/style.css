@@ -42,7 +42,7 @@
     line-height: 44px;
   }
   
-  h2 {
+  p {
     margin-left: 72px;
     margin: 25px 124.5px 0px 72px;
     font-size: 14px;
@@ -104,7 +104,7 @@
   }
   
   /* media breakpoint formatting for smartphones*/
-  @media only screen and (max-width: 600px) {
+  @media(max-width: 600px) {
     .card {
       display: flex;
       flex-flow: column-reverse;
@@ -134,7 +134,7 @@
       text-align: center;
     }
   
-    h2 {
+    p {
       margin: 40px 31.5px 0px 31.5px;
       font-size: 15px;
       font-weight: 400;
