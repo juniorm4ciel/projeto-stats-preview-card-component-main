@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     font-family: "Inter", sans-serif;
-    font-size: 15px;
+    font-size: 62.5%;
     color: hsl(0, 0%, 100%);
     width: 100%;
   }
@@ -38,14 +38,14 @@
   h1 {
     margin-left: 72px;
     margin-right: 95px;
-    font-size: 36px;
+    font-size: 2rem;
     line-height: 44px;
   }
   
   p {
     margin-left: 72px;
     margin: 25px 124.5px 0px 72px;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 400;
     line-height: 25px;
     opacity: 0.75;
@@ -64,14 +64,14 @@
   }
   
   .data {
-    font-size: 24px;
+    font-size: 1.6rem;
     font-weight: 700;
   }
   
   .desc {
     font-family: "Lexend Deca";
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.7rem;
     text-transform: uppercase;
     opacity: 0.6;
     letter-spacing: 1px;
@@ -91,7 +91,7 @@
   }
   /*footer formatting*/
   footer {
-    font-size: 15px;
+    font-size: 0.9rem;
     text-align: center;
     margin-top: 10px;
   }
@@ -129,14 +129,14 @@
   
     h1 {
       margin: 40px 31.5px 0px 31.5px;
-      font-size: 28px;
+      font-size: 2rem;
       line-height: 32px;
       text-align: center;
     }
   
     p {
       margin: 40px 31.5px 0px 31.5px;
-      font-size: 15px;
+      font-size: 0.9rem;
       font-weight: 400;
       line-height: 25px;
       text-align: center;
